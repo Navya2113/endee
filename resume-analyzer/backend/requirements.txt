@@ -1,13 +1,6 @@
-# ─── Web framework ───────────────────────────────────────────────
-fastapi==0.111.0
+﻿fastapi==0.111.0
 uvicorn[standard]==0.29.0
-
-# ─── Endee vector database — official Python SDK ─────────────────
 endee
-
-# ─── Embeddings ───────────────────────────────────────────────────
 sentence-transformers==2.7.0
-numpy==1.26.4
-
-# ─── Validation ───────────────────────────────────────────────────
+numpy>=2.2.4
 pydantic==2.7.1
